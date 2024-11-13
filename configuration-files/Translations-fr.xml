@@ -1,0 +1,273 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources name="Translations" language="fr">
+    <string name="LblManualLogin">CONNEXION MANUELLE</string>
+    <string name="labelSignOn">Se connecter</string>
+    <string name="username">Nom d'utilisateur*</string>
+    <string name="password">Mot de passe*</string>
+    <string name="App_name">My Transport</string>
+    <string name="ToolbarTextManualBarcode">ENTREZ MANUELLEMENT</string>
+    <string name="EncryptText">Password</string>
+    <string name="TrainingMode">Mode Formation</string>
+    <string name="NonProductionEnvironmentText">ENVIRONNEMENT NON-PRODUCTION </string>
+    <string name="ContactText">S'il vous plaît contacter TeamLeader</string>
+    <string name="SelectEnvironmentDialogTitle">Sélectionner un environnement</string>
+    <!-- Category: Buttons -->
+    <string name="Cancel">ANNULER</string>
+    <string name="Ready">PRÊT</string>
+    <string name="Ok">OK</string>
+    <string name="ButtonMenu">MENU</string>
+    <string name="Accept">CONFIRMER</string>
+    <string name="Logout">Déconnexion</string>
+    <string name="Back">Retour</string>
+    <string name="Remove">RETIRER</string>
+    <string name="DepartNew">DEPART</string>
+    <string name="Yes">Oui</string>
+    <string name="No">Non</string>
+    <string name="AcceptPreload">ACCEPTER</string>
+    <string name="RejectPreload">REJETER</string>
+    <string name="Wait">Attendre</string>
+    <string name="Continue">Continuer</string>
+    <string name="Save">Sauvegarder</string>
+    <!-- Category: General errors -->
+    <string name="ErrorInvalidBarcodeTitle">Code à barre non valide!</string>
+    <string name="ErrorTimeout">Serveur non disponible. Déplacez-vous vers un endroit avec une meilleure connexion et réessayez</string>
+    <string name="TimeoutError">Serveur non disponible. Déplacez-vous vers un endroit avec une meilleure connexion et réessayez</string>
+    <string name="ErrorSignInDifferentSubTitle">Serveur non disponible. Réessayez plus tard</string>
+    <string name="LaunchMessage">My Transport 2 démarre. Veuillez patienter svp.</string>
+    <!-- Screen: Login -->
+    <string name="LoginTitle">Scannez votre badge</string>
+    <string name="SigninScanLabel">Scannez votre badge</string>
+    <string name="SigninManual">LOGIN MANUEL</string>
+    <!-- Screen: Arrival Site -->
+    <string name="ArrivalSiteTitle">Site d'arrivée</string>
+    <string name="ArrivalSitePopupMessage">Voulez-vous vraiment confirmer cette arrivée et/ou ce quai?</string>
+    <string name="ArrivalSwipToScan">Scannez le code à barre</string>
+    <string name="InvalidDockNumber">Numéro du Quai non valide</string>
+    <!-- Screen: Consolidate -->
+    <string name="ConsolidateTitle">Consolidation</string>
+    <string name="CancelPopupMessage">Êtes-vous sûr de vouloir annuler la consolidation?</string>
+    <string name="ConfirmPopupMessage">Voulez-vous vraiment confirmer le chargement?</string>
+    <string name="ErrorInvalidConsolidateAlreadyLoaded">Le conteneur est déjà chargé</string>
+    <string name="ErrorScanReceptacleInstruction">Scannez le conteneur</string>
+    <string name="ConsolidateScanMessage">D'abord scannez le conteneur principal, après les autres que vous voulez consolider</string>
+    <string name="LoadScanInvalidDestination">Attention! Destination PAS OK</string>
+    <!-- Screen: Load -->
+    <string name="LoadTitle">Charger</string>
+    <string name="LoadPopupUnloadContainerMessage">Voulez-vous supprimer %s?</string>
+    <string name="LoadPopupUnloadWithSubReceptaclesMessage">Voulez-vous supprimer %s y compris les sous-conteneurs?</string>
+    <string name="ErrorReceptacleConsolidatedInstruction">Le sous-conteneur est déjà consolidé</string>
+    <string name="ErrorReceptacleConsolidatedToast">Le conteneur est un sub conteneur. Veuillez scanner le conteneur principal</string>
+    <string name="ErrorInvalidBarcodeConsolidatedToast">Le code à barres ne peut pas être consolidé</string>
+    <string name="LoadConsolidatedWithNumber">Consolidé avec %s</string>
+    <string name="LoadPopupNegativeContainerAmount">Supprimer le nombre de conteneurs sélectionné?</string>
+    <string name="LoadPopupMaxContainerAmount">Le nombre maximal pour ce type de conteneur est </string>
+    <string name="LoadPopupChangeItemsAmountTitle">Sélectionnez le numéro %s - %s à charger</string>
+    <string name="ConfirmLogoutMessage">Voulez-vous vraiment vous déconnecter?</string>
+    <string name="ConfirmLoadErrorMessage">Erreur lors de l'obtention du statut</string>
+    <string name="ConfirmLoadErrorMessage1">Erreur renvoyée par TOM</string>
+    <string name="LolIdNotFound">Lieu non trouvé. Essaye encore</string>
+    <string name="ConfirmLoadErrorMessage3">Le véhicule est déjà parti</string>
+    <string name="LoadDestinationMismatchError">La destination %s que vous souhaitez charger n'est pas planifiée pour votre course. Etes-vous sûr de vouloir charger ce conteneur?</string>
+    <string name="PreloadAcceptPopUpMessage">Confirmez-vous vraiment accepter le préchargement?</string>
+    <string name="PreloadRejectPopUpMessage">Confirmez-vous vraiment de rejeter le préchargement?</string>
+    <string name="PreLoadTitle">Précharger</string>
+    <string name="PreLoadErrorMessage1">TOM a renvoyé une erreur lors de la récupération des informations du préchargement sur vos véhicules -Voulez-vous réessayer?</string>
+    <string name="PreLoadErrorMessage2">Une erreur de Token Authorization s'est produite lors de l'extraction des informations de préchargement sur vos véhicules -Voulez-vous réessayer?</string>
+    <string name="LoadBackPopupAlert">Tous les codes à barres chargés seront perdus. Êtes-vous sûr?</string>
+    <string name="PreloadMismatchAlert">Attention, les codes à barres en rouge ne sont pas planifiés sur ta route.</string>
+    <!-- Screen: Unload -->
+    <string name="UnloadDestinationMismatchError">La destination %s que vous souhaitez décharger est différent que le lieux actuel.Êtes-vous sûr de vouloir décharger ce conteneur?</string>
+    <string name="UnloadPopupChangeItemsAmountTitle">Sélectionnez le numéro %s - %s à libérer</string>
+    <!-- Screen: Popup -->
+    <string name="PopupReadyForDepartureMessage">Voulez-vous vraiment partir?</string>
+    <!-- Screen: Unload -->
+    <string name="UnloadTitle">Décharger</string>
+    <!-- Screen: Menu -->
+    <string name="MenuTitle">Menu</string>
+    <string name="MenuLoad">Charger</string>
+    <string name="MenuUnload">Décharger</string>
+    <string name="MenuDepart">Départ</string>
+    <string name="MenuEnd">Fin course</string>
+    <string name="MenuPopupEndMessage">Voulez-vous vraiment terminer la course?</string>
+    <string name="MenuNavigatetoT402Button">FLEET APP</string>
+    <string name="Retry">REESSAYER</string>
+    <string name="MenuBarcodeAlert">Pas possible de scanner un code à barre</string>
+    <string name="EndRouteNavigationInProgress">Veuillez terminer la procédure de fin de course dans l’application Fleet afin de poursuivre</string>
+    <!-- Screen: Manual Barcode Scan -->
+    <string name="ManualBarcodeTitle">Entrez manuellement du code à barre</string>
+    <!-- Category: Route Info -->
+    <string name="RouteInfoRC">RC</string>
+    <string name="RouteInfoBC">BC</string>
+    <string name="RouteInfoPallet">PALETTE</string>
+    <string name="RouteInfoOther">AUTRES</string>
+    <string name="Next">Suivant</string>
+    <!-- Screen: Service Data -->
+    <string name="ServiceDataTitle">Scannez les données de la course</string>
+    <string name="ServiceDataDepartureSite">Site de départ</string>
+    <string name="ServiceDataService">Service</string>
+    <string name="ServiceDataRoute">Route</string>
+    <string name="ServiceDataVehicle">Camion</string>
+    <!-- Screen: Settings -->
+    <string name="SettingsTitle">Réglages</string>
+    <string name="SettingsTitleAdmin">Paramètres administrateur</string>
+    <string name="SettingsDefaultDepartureSite">Site de départ par défaut</string>
+    <string name="SettingsScannerID">Scannez ID</string>
+    <string name="SettingsApplicationID">Application</string>
+    <string name="SettingsApplicationVersion">Version</string>
+    <string name="SettingsApplicationLastUpdate">Dernière mise à jour</string>
+    <string name="SettingsEnvironment">Environnement</string>
+    <string name="SettingsRetentionPurgeDays">Supprimer les transactions de sauvegarde après (jours)</string>
+    <string name="SettingsHttpTimeoutMs">Web Sevice inaccessible (ms)</string>
+    <string name="SettingsSuffixDays">jours</string>
+    <string name="SettingsSuffixMilliseconds">ms</string>
+    <string name="SettingsDestinationCheckTitle">Vérification de la destination pour le chargement/déchargement</string>
+    <string name="UseT402PaperVersion">Fleet app lié</string>
+    <!-- Category: Notifications -->
+    <string name="NotificationsUnsentDataTitle">My Transport 2 problème de communication!</string>
+    <string name="NotificationsUnsentDataText">Données à envoyer à %s: %s</string>
+    <string name="NotificationsAppNotificationTitle">My Transport 2</string>
+    <string name="NotificationsAppNotificationLoginText">Bonjour %s</string>
+    <!-- Category: Byod Messages-->
+    <string name="VersionAlertTitle">Problème avec la version</string>
+    <string name="VersionAlertMessage">MyTransport installé n'est pas la dernière version, veuillez installer la dernière version de l'application pour continuer.</string>
+    <string name="EnvironmentAlertTitle">Environnement Alerte</string>
+    <string name="EnvironmentAlertMessage">Veuillez sélectionner un environnement non-production pour continuer.</string>
+    <string name="ServerCommunicationFailTitle">Erreur du serveur</string>
+    <string name="ServerCommunicationFailMessage">Impossible de contacter le serveur. S'il vous plaît essayer après un certain temps.</string>
+    <string name="NoNetworkMessage">Les données requises pour exécuter l'application ne sont pas disponibles. Déplacez-vous vers un endroit avec une meilleure connexion et réessayez.</string>
+    <string name="AllowToWorkOfflineTilte">Erreur réseau</string>
+    <string name="FileDownloadFailTitle">Échec du téléchargement du fichier</string>
+    <string name="FileDownloadFailMessage">Impossible de télécharger le fichier requis.</string>
+    <string name="NullServerResponseTitle">Erreur du serveur</string>
+    <string name="NullServerResponseMessage">"Vous avez essayé 3 fois de vous connecter avec une mauvaise combinaison numéro de matricule/mot de passe. Vous devez attendre 1 heure avant de pouvoir faire 3 nouvelles tentatives. Demandez de l\'aide à votre Team Leader "</string>
+    <string name="RetryByodAlert">Le chargement des fichiers de configuration a échoué. Veuillez réessayer.</string>
+    <!-- Screen:   Manual Login -->
+    <string name="ManualLoginTitle">Manual Login</string>
+    <!-- Screen:  Pin Login -->
+    <string name="PinLoginTitle">Code Pin</string>
+    <!--  Screen: Select Profile -->
+    <string name="SelectProfileTitle">Selectionnez votre profil</string>
+    <string name="DriverProfile">Chauffeur</string>
+    <string name="LoaderProfile">Employé du quai</string>
+    <string name="LogOutBtnText">Déconnexion</string>
+    <!--  Screen: Subco Landing  -->
+    <string name="SubcoLoginTitle">Login Subco</string>
+    <string name="DepartureSite">Site de départ</string>
+    <string name="ConfirmLoad">Fin chargement</string>
+    <string name="InvalidBarCode">Code à barre non valide</string>
+    <string name="InvalidArrivalSite">Site d'arrivée non valide</string>
+    <string name="InvalidDepartureSite">Site de départ non valide</string>
+    <string name="InvalidServicecode">Code Service non valide</string>
+    <string name="InvalidRoutecode">Code Route non valide</string>
+    <string name="InvalidVehicleLicensePlate">Plaque d'immatriculation du véhicule non valide</string>
+    <string name="InvalidVehicleScan">Cliquez sur \'Ajouter un autre véhicule\'</string>
+    <string name="SubcoOrDriverMessage">Est-vous un employé de Bpost?</string>
+    <!-- Screen: Trip Selection -->
+    <string name="TripSelectionTitle">Entrer le numéro du service et de la course</string>
+    <string name="SpecialButtonTitle">SPÉCIAL</string>
+    <string name="SpecialTripContent">Voulez-vous vraiment créer une course spéciale?</string>
+    <string name="DepartureSiteChangedMessage">Souhaitez-vous modifier le site de départ %s par le site planifié dans la course sélectionnée %s ?</string>
+    <string name="FetchTripDetailMessage1">Pas possible d'afficher les courses</string>
+    <string name="FetchTripDetailMessage2">Pas possible d'afficher les courses. Veuillez saisir manuellement le numéro de la course</string>
+    <string name="SpecialTripAlertDialogText">Le spécial ne peut pas être crée. Veuillez saisir le numéro du spécial manuellement.</string>
+    <string name="SpecialTripMaxErrorMessage">Nombre maximum de Courses spéciales atteints</string>
+    <string name="SpecialTripTokenError">Erreur login</string>
+    <string name="SpecialTripAlertDialogManualEntry">Une erreur s'est produite lors de l'envoi de la demande. Veuillez saisir l'ID de la course spéciale manuellement</string>
+    <string name="SpecialTripStopSelectionMessage">Tous les stops sélectionnés seront perdus. Voulez-vous continuer ?</string>
+    <string name="SpecialTripStopConfirm">Aucun stop sélectionné pour cette course spéciale. Voulez-vous continuer sans?</string>
+    <string name="AddNewStop">AJOUTER UN STOP</string>
+    <string name="Stop">STOP</string>
+    <string name="SelectDestinationsTitle">Destinations sélectionnées</string>
+    <string name="SelectDestinationPlaceHolder">Sélectionnez une destination</string>
+    <string name="Confirm">Confirmer</string>
+    <string name="SearchDestinationPlaceHolder">Recherchez une destination</string>
+    <string name="GenericErrorMessage">Une erreur s'est produite. Veuillez réessayer</string>
+    <string name="NoPlannedTripMessage">Aucune course prévue pour ce code de service. Veuillez réessayer</string>
+    <string name="RetryDoneForRouteCode">Une erreur est survenue lors de l'extraction des routes depuis TOM</string>
+    <string name="InvalidDateFormat">Format de date non valide. Veuillez réessayer</string>
+    <string name="InvalidServiceCode">Code de service invalide. Veuillez réessayer</string>
+    <string name="InvalidRouteCode">Code Route non valide. Veuillez réessayer</string>
+    <string name="SelectedTripMessage">La route est déjà sélectionnée, s'il vous plaît essayer une autre</string>
+    <string name="TokenError">Erreur login</string>
+    <string name="LocationMissmatchMessage">Vous êtes sur le site de %s. Voulez-vous l'utiliser comme site de départ?</string>
+    <string name="ArrivalMissmatchMessage">Vous êtes sur le site de %s. Voulez-vous l'utiliser comme site d'arrivée?</string>
+    <string name="SpecialTripToastMesage">Course Spéciale sélectionnée, impossible de scanner le code de route</string>
+    <!-- Screen: Gate number scan -->
+    <string name="GateScanTitle">Scannez le numéro de quai:</string>
+    <string name="GateScanLabel">Numéro de quai:</string>
+    <string name="GateScanArrivalLabel">Numéro de quai</string>
+    <string name="GateSwipeToScan">Scannez le code à barre</string>
+    <!--Screen: Route Overview Screen-->
+    <string name="RouteOverviewScreenTitle">Aperçu de la course</string>
+    <!--Screen: Vehicle selection Screen-->
+    <string name="VehicleSelectionTitle">Selectionnez mon véhicule</string>
+    <string name="VehicleSelectionLabel">Mon véhicule</string>
+    <string name="T402ErrorDialogText">Fleetwave ne répond pas et ne peut donc pas passer au Fleet app. Veuillez utiliser le formulaire papier pour les contrôles. N’oubliez pas de demander le code PIN de la carte carburant au TL.</string>
+    <string name="T402NotAvailableDialogText">L\'application fleet n\'est pas disponible. Utilisez un formulaire papier. N’oubliez pas de demander le code PIN de la carte carburant au TL.</string>
+    <string name="AddAnotherVehicle">AJOUTER UN AUTRE VÉHICULE</string>
+    <string name="MaximumVehicleSelectionExceeded">Vous avez dépassé le nombre maximum de véhicules à sélectionner</string>
+    <string name="AlreadySelectedVehicle">Existe déjà!</string>
+    <string name="ScanAnotherVehicle">L'identifiant du véhicule entré ne peut pas être utilisé, essayez de scanner un autre véhicule</string>
+    <string name="VehicleNotAvailable">Le type de véhicule n'existe pas pour la plaque d'immatriculation entrée</string>
+    <string name="VehicleNotExit">La plaque d'immatriculation du véhicule n'existe pas. Veuillez essayer une autre plaque d'immatriculation</string>
+    <string name="UsePaperVersion">Utilisez la version papier. N’oubliez pas de demander le code PIN de la carte carburant au TL</string>
+    <string name="VehicleParamsExit">Type de véhicule non reconnu</string>
+    <string name="ScanTrailerMessage">Veuillez également ajouter la plaque d'immatriculation de la remorque</string>
+    <string name="ScanTractorMessage">Veuillez également ajouter la plaque d'immatriculation du tracteur</string>
+    <!--Screen: Trip Delay Screen-->
+    <string name="TripDelayScreenTitle">Vos retards sur la route</string>
+    <string name="TripDelayReasonScreenTitle">Fournir la raison du retard</string>
+    <string name="OtherRemarks">Autres remarques</string>
+    <string name="SelectAReason">Selectionnez raison</string>
+    <string name="DelayStop">Stops</string>
+    <string name="ArrivalDelay">ARRIVÉE</string>
+    <string name="DepartureDelay">DÉPART</string>
+    <string name="RetryDelayErrorMessage1">Les retards ne sont pas encore calculés patientez s'il vous plaît.</string>
+    <string name="RetryDelayErrorMessage2">Les retards ne sont pas prêt, vous pouvez attendre ou annuler cette opération.</string>
+    <!--Screen: Docker return Screens-->
+    <string name="Finished">Fin</string>
+    <string name="DestinationMisMatchErrorMessage">Le conteneur que vous souhaitez charger n'est pas prévu pour cette destination</string>
+    <string name="EntryAVCSlabel">Encoder l'étiquette AVCS</string>
+    <string name="Addcontainer">Ajouter un  conteneur</string>
+    <string name="Scancontainer">Scanner le conteneur</string>
+    <string name="ScanAVCSBarcode">Scanner le code-barres de l'étiquette AVCS</string>
+    <string name="SelectCustomer">Sélectionner la destination</string>
+    <string name="SearchCustomer">Rechercher la destination</string>
+    <string name="TitleDockerReturn">Mise à quai des retours</string>
+    <string name="CustomerDetailsNotAvailableError">Les données du client ne sont pas disponibles</string>
+    <string name="ContainerAlreadyLoadedError">Ce récipient (palette/conteneur) a déjà été chargé</string>
+    <string name="NoInternetError">Problème de connexion avec le réseau</string>
+    <string name="NoServerError">Pas de connexion au serveur</string>
+    <string name="AVCSpopupText">L’étiquette AVCS n’est pas clôturée, veuillez vérifier le produit dans le conteneur/la palette avant de charger le camion</string>
+    <!--Screen: Scanner Screens-->
+    <string name="ErrorTitle">Error</string>
+    <string name="ErrorInvalidBarcodeMessage">Scannez un code barre valide s\'il vous plait</string>
+    <!-- Screen: Training sign in-->
+    <string name="ManualSignInTrainingLoginTitle">Connexion manuelle</string>
+    <!--  Badge scan-->
+    <string name="EnterYourPinBadgeScanTitle">Encoder code PIN</string>
+    <string name="PermissionAccess">My Transport 2 sera maintenant fermé, veuillez modifier les autorisations d\'accès sur l\'appareil.</string>
+    <string name="ConsolidatedWith">Consolidé avec</string>
+    <string name="ConfirmConsolidation">ACCEPTER</string>
+    <string name="CancelConsolidation">ANNULER</string>
+    <string name="Done">FIN</string>
+    <string name="SchedulerDataClearMessage">Un logon non synchronisé existe déjà dans un autre environnement et sera perdu. Voulez-vous continuer \?</string>
+    <string name="Waybill">CMR</string>
+    <!--Screen: Vehicle Proposal Screen-->
+    <string name="VehicleProposalScreenTitle">Choix du véhicule</string>
+    <string name="Keytag">Keytag</string>
+    <string name="NumberPlate">Plaque d'immatriculation</string>
+    <string name="VehicleType">Type</string>
+    <string name="Preload">Prechargement</string>
+    <string name="MainVehicle">Vehicule</string>
+    <string name="NoteFromTeamLead">Remarque Teamleader</string>
+    <string name="Close">Cloturer</string>
+    <string name="ContactTeamLeadMessage">Veuillez contacter votre teamleader pour demander quel véhicule vous pouvez utiliser.</string>
+    <string name="GateChangeMessage">Attention, changement de quai prévu.</string>
+    <string name="DockChangeButton">Changement de quai</string>
+    <string name="WayBillNotAvailablePopupMessage">Pas d'informations CMR disponibles. Essayer à nouveau dans 30 secondes.</string>
+    <string name="PreviousButton">Précédent</string>
+    <string name="VehicleReuseInfoMessage">Veuillez noter que si vous êtes autorisé à conserver la clé du véhicule utilisé lors de la course précédente, vous pouvez ignorer le message ci-dessus.</string>
+    <string name="SubcoUserDetailsTitle">Encodage Numéro Subco</string>
+    <string name="SubcoUserDetailsMessage">Encodez votre Numéro Subco</string>
+</resources>

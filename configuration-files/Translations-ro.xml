@@ -1,0 +1,272 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources name="Translations" language="ro">
+    <string name="LblManualLogin">SIGN IN MANUALLY</string>
+    <string name="labelSignOn">Sign On</string>
+    <string name="username">Username*</string>
+    <string name="password">Password*</string>
+    <string name="App_name">My Transport</string>
+    <string name="ToolbarTextManualBarcode">MANUAL ENTRY</string>
+    <string name="EncryptText">Password</string>
+    <string name="TrainingMode">TRAINING MODE</string>
+    <string name="NonProductionEnvironmentText">NON-PRODUCTION ENVIRONMENT</string>
+    <string name="ContactText">Please contact TeamLeader</string>
+    <string name="SelectEnvironmentDialogTitle">Select an environment</string>
+    <!-- Category: Buttons -->
+    <string name="Cancel">CANCEL</string>
+    <string name="Ready">READY</string>
+    <string name="Ok">OK</string>
+    <string name="ButtonMenu">MENU</string>
+    <string name="Accept">CONFIRM</string>
+    <string name="Logout">LOG OUT</string>
+    <string name="Back">BACK</string>
+    <string name="Remove">REMOVE</string>
+    <string name="DepartNew">DEPART</string>
+    <string name="Retry">RETRY</string>
+    <string name="Yes">YES</string>
+    <string name="No">NO</string>
+    <string name="AcceptPreload">ACCEPT PRELOAD</string>
+    <string name="RejectPreload">REJECT PRELOAD</string>
+    <string name="Wait">Wait</string>
+    <string name="Continue">Continue</string>
+    <string name="Save">Save</string>
+    <!-- Category: General errors -->
+    <string name="ErrorInvalidBarcodeTitle">Invalid barcode!</string>
+    <string name="ErrorTimeout">We are temporarily unable to reach the server. Please retry after some time </string>
+    <string name="TimeoutError">We are temporarily unable to reach the server. Please retry after some time</string>
+    <string name="ErrorSignInDifferentSubTitle">We are temporarily unable to reach the server. Please retry after some time</string>
+    <string name="LaunchMessage">My Transport 2 is launching. Please wait.</string>
+    <!-- Screen: Login -->
+    <string name="LoginTitle">Scan barcode on badge</string>
+    <string name="SigninScanLabel">Scan Your Badge</string>
+    <string name="SigninManual">MANUAL LOGIN</string>
+    <!-- Screen: Arrival Site -->
+    <string name="ArrivalSiteTitle">Arrival site</string>
+    <string name="ArrivalSitePopupMessage">Do you really want to confirm your arrival and/or gate?</string>
+    <string name="ArrivalSwipToScan">Scan Barcode</string>
+    <string name="InvalidDockNumber">Invalid dock number</string>
+    <!-- Screen: Consolidate -->
+    <string name="ConsolidateTitle">Consolidation</string>
+    <string name="CancelPopupMessage">Are you sure that you want to cancel the consolidation?</string>
+    <string name="LoadScanInvalidDestination">Destination Mismatch found</string>
+    <string name="ConfirmPopupMessage">Do you really want to confirm the load?</string>
+    <string name="ErrorInvalidConsolidateAlreadyLoaded">Container is already loaded</string>
+    <string name="ErrorScanReceptacleInstruction">Scan container</string>
+    <string name="ConsolidateScanMessage">Scan the main container, followed by all subcontainers that you want to consolidate</string>
+    <!-- Screen: Load -->
+    <string name="LoadTitle">Load</string>
+    <string name="LoadPopupUnloadContainerMessage">Do you want to remove %s ?</string>
+    <string name="LoadPopupUnloadWithSubReceptaclesMessage">Do you want to delete %s including subcontainers?</string>
+    <string name="ErrorReceptacleConsolidatedInstruction">The subcontainer is already consolidated</string>
+    <string name="ErrorReceptacleConsolidatedToast">This is a sub container. Please scan the main container to unload</string>
+    <string name="ErrorInvalidBarcodeConsolidatedToast">Impossible to consolidate this barcode</string>
+    <string name="LoadConsolidatedWithNumber">Consolidated with %s</string>
+    <string name="LoadPopupNegativeContainerAmount">Remove the selected number of containers?</string>
+    <string name="LoadPopupMaxContainerAmount">Number of containers allowed to load are </string>
+    <string name="LoadPopupChangeItemsAmountTitle">Select number of %s - %s to load</string>
+    <string name="ConfirmLogoutMessage">Do you really want to log out?</string>
+    <string name="ConfirmLoadErrorMessage">Error in fetching status</string>
+    <string name="ConfirmLoadErrorMessage1">Error returned from TOM</string>
+    <string name="LolIdNotFound">Location Id not found. Please try again </string>
+    <string name="ConfirmLoadErrorMessage3">Vehicle has already departed</string>
+    <string name="LoadDestinationMismatchError">The destination %s you want to load is not planned on your trip. Are you sure you want to load this container?</string>
+    <string name="PreloadAcceptPopUpMessage">Do you really confirm to accept the pre-load?</string>
+    <string name="PreloadRejectPopUpMessage">Do you really confirm to reject the pre-load?</string>
+    <string name="PreLoadTitle">Preload</string>
+    <string name="PreLoadErrorMessage1">There is an error returned from TOM in fetching the information of preload on your vehicles  - Do you want to retry?</string>
+    <string name="PreLoadErrorMessage2">There is a Token Authorization error in fetching the information of preload on your vehicles - Do you want to retry?</string>
+    <string name="LoadBackPopupAlert">All the loaded data will be lost, does the loader really wants to traverse back?</string>
+    <string name="PreloadMismatchAlert">Attention, the barcodes in red are not planned on your trip.</string>
+    <!-- Screen: Unload -->
+    <string name="UnloadDestinationMismatchError">The destination %s you want to unload is not planned on your trip. Are you sure you want to unload this container?</string>
+    <!-- Screen: Popup -->
+    <string name="PopupReadyForDepartureMessage">Do you really want to depart?</string>
+    <!-- Screen: Unload -->
+    <string name="UnloadTitle">Unload</string>
+    <!-- Screen: Menu -->
+    <string name="MenuTitle">Menu</string>
+    <string name="MenuLoad">Load</string>
+    <string name="MenuUnload">Unload</string>
+    <string name="MenuDepart">Departure</string>
+    <string name="MenuEnd">End route</string>
+    <string name="MenuPopupEndMessage">Do you really want to end the trip?</string>
+    <string name="MenuNavigatetoT402Button">FLEET APP</string>
+    <string name="MenuBarcodeAlert">Not possible to scan a barcode</string>
+    <string name="EndRouteNavigationInProgress">Please complete the end route process in the Fleet application in order to proceed</string>
+    <!-- Screen: Manual Barcode Scan -->
+    <string name="ManualBarcodeTitle">Manual barcode entry</string>
+    <!-- Category: Route Info -->
+    <string name="RouteInfoRC">RC</string>
+    <string name="RouteInfoBC">BC</string>
+    <string name="RouteInfoPallet">Pallet</string>
+    <string name="RouteInfoOther">Others</string>
+    <string name="Next">NEXT</string>
+    <!-- Screen: Service Data -->
+    <string name="ServiceDataTitle">Scan the route data</string>
+    <string name="ServiceDataDepartureSite">DepartureSite</string>
+    <string name="ServiceDataService">Service</string>
+    <string name="ServiceDataRoute">Route</string>
+    <string name="ServiceDataVehicle">Truck</string>
+    <!-- Screen: Settings -->
+    <string name="SettingsTitle">Settings</string>
+    <string name="SettingsTitleAdmin">Admin settings</string>
+    <string name="SettingsDefaultDepartureSite">Default departure site</string>
+    <string name="SettingsScannerID">Scanner ID</string>
+    <string name="SettingsApplicationID">Application</string>
+    <string name="SettingsApplicationVersion">Version</string>
+    <string name="SettingsApplicationLastUpdate">Last update</string>
+    <string name="SettingsEnvironment">Environment</string>
+    <string name="SettingsRetentionPurgeDays">Delete backup transactions after (days)</string>
+    <string name="SettingsHttpTimeoutMs">Web Service time-out (ms)</string>
+    <string name="SettingsSuffixDays">days</string>
+    <string name="SettingsSuffixMilliseconds">ms</string>
+    <string name="SettingsDestinationCheckTitle">Destination Check for loading/unloading?</string>
+    <string name="UseT402PaperVersion">Fleet app linked</string>
+    <!-- Category: Notifications -->
+    <string name="NotificationsUnsentDataTitle">My Transport 2 communication problem!</string>
+    <string name="NotificationsUnsentDataText">Data still to send to %s: %s</string>
+    <string name="NotificationsAppNotificationTitle">My Transport 2</string>
+    <string name="NotificationsAppNotificationLoginText">Welcome %s</string>
+    <!-- Category: Byod Messages-->
+    <string name="VersionAlertTitle">Version Mismatch</string>
+    <string name="VersionAlertMessage">Installed MyTransport is not latest, Please install latest app version to continue.</string>
+    <string name="EnvironmentAlertTitle">Environment Alert</string>
+    <string name="EnvironmentAlertMessage">Please select any non-production environment to continue.</string>
+    <string name="ServerCommunicationFailTitle">Server Error</string>
+    <string name="ServerCommunicationFailMessage">Unable to contact server. Please try after some time.</string>
+    <string name="NoNetworkMessage">Required data to run the application is not available. Move to a location with better connection and try again.</string>
+    <string name="AllowToWorkOfflineTilte">Network Alert</string>
+    <string name="FileDownloadFailTitle">File Download Fail</string>
+    <string name="FileDownloadFailMessage">Unable to download required file.</string>
+    <string name="NullServerResponseTitle">Server Error</string>
+    <string name="NullServerResponseMessage">Application is receiving empty response from server.</string>
+    <string name="RetryByodAlert">My Transport failed to download latest configurations from server. Please try again.</string>
+    <!-- Screen:   Manual Login -->
+    <string name="ManualLoginTitle">Manual Login</string>
+    <!-- Screen:  Pin Login -->
+    <string name="PinLoginTitle">Pin Authentication</string>
+    <!--  Screen: Select Profile -->
+    <string name="SelectProfileTitle">Select your profile</string>
+    <string name="DriverProfile">Driver</string>
+    <string name="LoaderProfile">Loader</string>
+    <string name="LogOutBtnText">Log Out</string>
+    <!--  Screen: Subco Landing  -->
+    <string name="SubcoLoginTitle">Subco Login</string>
+    <string name="DepartureSite">Departure Site</string>
+    <string name="ConfirmLoad">Confirm Load</string>
+    <string name="InvalidBarCode">Invalid BarCode</string>
+    <string name="InvalidArrivalSite">Invalid Arrival Site</string>
+    <string name="InvalidDepartureSite">Invalid Departure Site</string>
+    <string name="InvalidServicecode">Invalid Service Code</string>
+    <string name="InvalidRoutecode">Invalid Route Code</string>
+    <string name="InvalidVehicleLicensePlate">Invalid Vehicle License Plate</string>
+    <string name="InvalidVehicleScan">Please select Add ANOTHER VEHICLE button</string>
+    <string name="SubcoOrDriverMessage">Are you a Bpost employee?</string>
+    <!-- Screen: Trip Selection -->
+    <string name="TripSelectionTitle">Enter service and route code</string>
+    <string name="SpecialButtonTitle">CREATE SPECIAL ROUTE CODE</string>
+    <string name="SpecialTripContent">Do you really want to create a Special Trip?</string>
+    <string name="DepartureSiteChangedMessage">%s different from planned %s, do you want to update value?</string>
+    <string name="FetchTripDetailMessage1">There was an error fetching the trips</string>
+    <string name="FetchTripDetailMessage2">There was an error fetching the trips,please manually enter the trip information</string>
+    <string name="SpecialTripMaxErrorMessage">Maximum number of special trips reached</string>
+    <string name="SpecialTripAlertDialogManualEntry">There was an error in sending the request, Please enter the Special Trip ID manually</string>
+    <string name="GenericErrorMessage">Something went wrong.Please try again</string>
+    <string name="SpecialTripStopSelectionMessage">All the stops selected will be lost. Do you want to proceed ?</string>
+    <string name="SpecialTripStopConfirm">No stops are selected for the special trip . Do you want to proceed ?</string>
+    <string name="AddNewStop">ADD NEW STOP</string>
+    <string name="Stop">STOP</string>
+    <string name="SelectDestinationsTitle">Select Destinations</string>
+    <string name="SelectDestinationPlaceHolder">Select a Destination</string>
+    <string name="Confirm">Confirm</string>
+    <string name="SearchDestinationPlaceHolder">Search your destination here</string>
+    <string name="NoPlannedTripMessage">No planned trips for this service code.Please try again</string>
+    <string name="RetryDoneForRouteCode">There is an error fetching the trips from TOM</string>
+    <string name="InvalidServiceCode">Invalid Service Code.Please try again</string>
+    <string name="InvalidRouteCode">Invalid Route Code.Please try again</string>
+    <string name="InvalidDateFormat">Invalid Date Format.Please try again</string>
+    <string name="SelectedTripMessage">Route is already selected, Please try other</string>
+    <string name="LocationMissmatchMessage">You are on location %s. Do you want to use this as departure site?</string>
+    <string name="ArrivalMissmatchMessage">You are on location %s. Do you want to use this as arrival site?</string>
+    <string name="TokenError">Token Authorization Error</string>
+    <string name="SpecialTripToastMesage">Special trip selected, unable to scan route code</string>
+    <!-- Screen: Unload -->
+    <string name="UnloadPopupChangeItemsAmountTitle">Select number of %s - %s to unload</string>
+    <!-- Screen: Gate number scan -->
+    <string name="GateScanTitle">Scan the gate number:</string>
+    <string name="GateScanLabel">Gate number:</string>
+    <string name="GateScanArrivalLabel">Gate number</string>
+    <string name="GateSwipeToScan">Scan Barcode</string>
+    <!--Screen: Route Overview Screen-->
+    <string name="RouteOverviewScreenTitle">Route Overview</string>
+    <!--Screen: Vehicle selection Screen-->
+    <string name="VehicleSelectionTitle">My Vehicle Selection</string>
+    <string name="VehicleSelectionLabel">My Vehicle</string>
+    <string name="T402ErrorDialogText">Fleetwave is not responding, hence cannot switch to Fleet app, please use Fleet app paper form to select vehicles</string>
+    <string name="T402NotAvailableDialogText">No Fleet app available for this trip, please use Fleet app paper based form instead. Don’t forget to ask your TL for the PIN code of the fuel card.</string>
+    <string name="AddAnotherVehicle">ADD ANOTHER VEHICLE</string>
+    <string name="MaximumVehicleSelectionExceeded">You have exceeded the maximum number of vehicle selection</string>
+    <string name="AlreadySelectedVehicle">Already Exists!</string>
+    <string name="ScanAnotherVehicle">The vehicle ID entered cannot be used, try scanning another vehicle</string>
+    <string name="VehicleNotAvailable">The entered vehicle licensed plate is not available for use</string>
+    <string name="VehicleNotExit">Vehicle license plate does not exist, please try another license plate</string>
+    <string name="UsePaperVersion">Use the paper version of Fleet app. Don’t forget to ask your TL for the PIN code of the fuel card.</string>
+    <string name="VehicleParamsExit">Vehicle Type not recognized</string>
+    <string name="ScanTrailerMessage">Please scan a trailer license plate</string>
+    <string name="ScanTractorMessage">Please scan a tractor license plate</string>
+    <!--Screen: Trip Delay Screen-->
+    <string name="TripDelayScreenTitle">Your trip delays</string>
+    <string name="TripDelayReasonScreenTitle">Provide reason for delay</string>
+    <string name="OtherRemarks">Other remarks</string>
+    <string name="SelectAReason">Select reason</string>
+    <string name="DelayStop">Stops</string>
+    <string name="ArrivalDelay">ARRIVAL</string>
+    <string name="DepartureDelay">DEPARTURE</string>
+    <string name="RetryDelayErrorMessage1">Delays are not ready, please wait.</string>
+    <string name="RetryDelayErrorMessage2">Delays are not ready, you can wait or dismiss this operation.</string>
+    <!--Screen: Docker return Screens-->
+    <string name="Finished">Done</string>
+    <string name="DestinationMisMatchErrorMessage">The container you want to load is not planned for this destination </string>
+    <string name="EntryAVCSlabel">Entry AVCS label</string>
+    <string name="Addcontainer">Add container</string>
+    <string name="Scancontainer">Scan container</string>
+    <string name="ScanAVCSBarcode">Scan AVCS label barcode</string>
+    <string name="SelectCustomer">Select destination</string>
+    <string name="SearchCustomer">Search destination here</string>
+    <string name="TitleDockerReturn">Docker Return</string>
+    <string name="CustomerDetailsNotAvailableError">Customer details are not available</string>
+    <string name="ContainerAlreadyLoadedError">Already loaded with the same container</string>
+    <string name="NoInternetError">No network connectivity</string>
+    <string name="NoServerError">Not able to reach the server</string>
+    <string name="AVCSpopupText">AVCS label is not closed, please check product inside container/pallet before loading</string>
+    <!--Screen: Scanner Screens-->
+    <string name="ErrorTitle">Error</string>
+    <string name="ErrorInvalidBarcodeMessage">Please scan a valid barcode</string>
+    <!-- Screen: Training sign in-->
+    <string name="ManualSignInTrainingLoginTitle">Manual sign in</string>
+    <!--  Badge scan-->
+    <string name="EnterYourPinBadgeScanTitle">Enter your PIN code</string>
+    <string name="PermissionAccess">My Transport 2 Cannot continue without Phone access permission, MyTransport will now exit</string>
+    <string name="ConsolidatedWith">Consolidated with</string>
+    <string name="ConfirmConsolidation">CONFIRM</string>
+    <string name="CancelConsolidation">CANCEL</string>
+    <string name="Done">DONE</string>
+    <string name="SchedulerDataClearMessage">There are unsynchronized data exist in scheduler and they will be lost. Would you like to continue?</string>
+    <string name="Waybill">Waybill</string>
+    <!--Screen: Vehicle Proposal Screen-->
+    <string name="VehicleProposalScreenTitle">Vehicle proposal</string>
+    <string name="Keytag">Keytag</string>
+    <string name="NumberPlate">License plate</string>
+    <string name="VehicleType">Type</string>
+    <string name="Preload">Preload</string>
+    <string name="MainVehicle">Vehicle</string>
+    <string name="NoteFromTeamLead">Remark teamleader</string>
+    <string name="Close">CLOSE</string>
+    <string name="ContactTeamLeadMessage">Please contact your teamleader to ask which vehicle you can use.</string>
+    <string name="GateChangeMessage">Attention, dock change planned.</string>
+    <string name="DockChangeButton">Change gate</string>
+    <string name="WayBillNotAvailablePopupMessage">No digital Waybill info available. Please wait try again after 30 sec.</string>
+    <string name="PreviousButton">Previous</string>
+    <string name="VehicleReuseInfoMessage">Attention: in case you must keep the key from your previous trip, you can ignore the info above.</string>
+    <string name="SubcoUserDetailsTitle">Enter Subco Number</string>
+    <string name="SubcoUserDetailsMessage">Enter your Subco-number</string>
+</resources>

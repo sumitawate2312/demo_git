@@ -1,0 +1,273 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources name="Translations" language="nl">
+    <string name="LblManualLogin">MANUEEL AANMELDEN</string>
+    <string name="labelSignOn">Aanmelden</string>
+    <string name="username">Gebruikersnaam*</string>
+    <string name="password">Wachtwoord*</string>
+    <string name="App_name">My Transport</string>
+    <string name="ToolbarTextManualBarcode">MANUELE INGAVE</string>
+    <string name="EncryptText">Password</string>
+    <string name="TrainingMode">Opleidingsmodus</string>
+    <string name="NonProductionEnvironmentText">NIET-PRODUCTIE OMGEVING</string>
+    <string name="ContactText">Gelieve uw teamleader te contacteren</string>
+    <string name="SelectEnvironmentDialogTitle">Selecteer een omgeving</string>
+    <!-- Category: Buttons -->
+    <string name="Cancel">ANNULEREN</string>
+    <string name="Ready">KLAAR</string>
+    <string name="Ok">OK</string>
+    <string name="ButtonMenu">Menu</string>
+    <string name="Accept">BEVESTIGEN</string>
+    <string name="Logout">Uitloggen</string>
+    <string name="Back">Terug</string>
+    <string name="Remove">Verwijder</string>
+    <string name="DepartNew">Vertrek</string>
+    <string name="Yes">Ja</string>
+    <string name="No">Nee</string>
+    <string name="AcceptPreload">ACCEPTEER</string>
+    <string name="RejectPreload">VERWERP</string>
+    <string name="Wait">Wachten</string>
+    <string name="Continue">Overslaan</string>
+    <string name="Save">Opslaan</string>
+    <!-- Category: General errors -->
+    <string name="ErrorInvalidBarcodeTitle">Ongeldige barcode!</string>
+    <string name="ErrorTimeout">Server niet bereikbaar. Verplaats je naar een locatie met betere connectie en probeer opnieuw</string>
+    <string name="TimeoutError">Server niet bereikbaar. Verplaats je naar een locatie met betere connectie en probeer opnieuw</string>
+    <string name="ErrorSignInDifferentSubTitle">Server niet bereikbaar. Probeer later opnieuw</string>
+    <string name="LaunchMessage">My Transport 2 start op. Even Geduld.</string>
+    <!-- Screen: Login -->
+    <string name="LoginTitle">Scan je badge</string>
+    <string name="SigninScanLabel">Scan je badge</string>
+    <string name="SigninManual">Manueel aanmelden</string>
+    <!-- Screen: Arrival Site -->
+    <string name="ArrivalSiteTitle">Aankomst site</string>
+    <string name="ArrivalSitePopupMessage">Wilt u uw aankomst en/of kade bevestigen?</string>
+    <string name="ArrivalSwipToScan">Scan de barcode</string>
+    <string name="InvalidDockNumber">Ongeldig kade nummer</string>
+    <!-- Screen: Consolidate -->
+    <string name="ConsolidateTitle">Consolidatie</string>
+    <string name="CancelPopupMessage">Bent u zeker dat u de consolidatie wil annuleren?</string>
+    <string name="LoadScanInvalidDestination">Opgelet! Bestemming NIET OK</string>
+    <string name="ConfirmPopupMessage">Wilt u de lading bevestigen?</string>
+    <string name="ErrorInvalidConsolidateAlreadyLoaded">De container is al geladen</string>
+    <string name="ErrorScanReceptacleInstruction">Scan de container</string>
+    <string name="ConsolidateScanMessage">Scan de hoofdcontainer, gevolgd door de subcontainers die u wil consolideren</string>
+    <!-- Screen: Load -->
+    <string name="LoadTitle">Laden</string>
+    <string name="LoadPopupUnloadContainerMessage">Wilt u %s verwijderen?</string>
+    <string name="LoadPopupUnloadWithSubReceptaclesMessage">Wilt u %s verwijderen incl subcontainers?</string>
+    <string name="ErrorReceptacleConsolidatedInstruction">De subcontainer is al geconsolideerd</string>
+    <string name="ErrorReceptacleConsolidatedToast">Dit is een subcontainer. Gelieve de hoofdcontainer te scannen</string>
+    <string name="ErrorInvalidBarcodeConsolidatedToast">Barcode kan niet geconsolideerd worden</string>
+    <string name="LoadConsolidatedWithNumber">Geconsolideerd met %s</string>
+    <string name="LoadPopupNegativeContainerAmount">Verwijder de containers?</string>
+    <string name="LoadPopupMaxContainerAmount">Max aantal voor dit type container is </string>
+    <string name="LoadPopupChangeItemsAmountTitle">Selecteer het aantal %s - %s om te laden</string>
+    <string name="ConfirmLogoutMessage">Bent u zeker dat u zich wil afmelden?</string>
+    <string name="ConfirmLoadErrorMessage">Error status ophalen</string>
+    <string name="ConfirmLoadErrorMessage1">TOM error</string>
+    <string name="LolIdNotFound">Locatie niet gevonden. Probeer opnieuw</string>
+    <string name="ConfirmLoadErrorMessage3">Het voertuig is al vertrokken</string>
+    <string name="LoadDestinationMismatchError">De bestemming %s waarvoor u wil laden is niet gepland op uw rit. Bent u zeker dat u deze container wil laden?</string>
+    <string name="PreloadAcceptPopUpMessage">Bent u zeker dat u de voorgeladen containers wil aanvaarden?</string>
+    <string name="PreloadRejectPopUpMessage">Bent u zeker dat u de voorgeladen containers wil verwerpen?</string>
+    <string name="PreLoadTitle">Voorladen</string>
+    <string name="PreLoadErrorMessage1">Probleem  met het ophalen van de voorgeladen containers. Wilt u opnieuw proberen?</string>
+    <string name="PreLoadErrorMessage2">Probleem met de connectie om de voorgeladen containers op te halen. Wilt u opnieuw proberen?</string>
+    <string name="LoadBackPopupAlert">Alle geladen barcodes zullen verloren gaan. Bent u zeker?</string>
+    <string name="PreloadMismatchAlert">Opgelet de barcodes in het rood zijn niet gepland op je rit.</string>
+    <!-- Screen: Unload -->
+    <string name="UnloadDestinationMismatchError">De bestemming  %s die u wil lossen is anders dan uw locatie. Bent u zeker dat u deze wil lossen?</string>
+    <string name="UnloadPopupChangeItemsAmountTitle">Selecteer het aantal %s - %s om te lossen</string>
+    <!-- Screen: Popup -->
+    <string name="PopupReadyForDepartureMessage">Bent u zeker dat u wil vertrekken?</string>
+    <!-- Screen: Unload -->
+    <string name="UnloadTitle">Lossen</string>
+    <!-- Screen: Menu -->
+    <string name="MenuTitle">Menu</string>
+    <string name="MenuLoad">Laden</string>
+    <string name="MenuUnload">Lossen</string>
+    <string name="MenuDepart">Vertrek</string>
+    <string name="MenuEnd">Einde rit</string>
+    <string name="MenuPopupEndMessage">Wilt u de rit beëindigen?</string>
+    <string name="MenuNavigatetoT402Button">FLEET APP</string>
+    <string name="Retry">Opnieuw</string>
+    <string name="MenuBarcodeAlert">Niet mogelijk om barcode te scannen</string>
+    <string name="EndRouteNavigationInProgress">Beëindig het proces einde rit in de fleet app om verder te gaan a.u.b</string>
+    <!-- Screen: Manual Barcode Scan -->
+    <string name="ManualBarcodeTitle">Manuele barcode ingave</string>
+    <!-- Category: Route Info -->
+    <string name="RouteInfoRC">RC</string>
+    <string name="RouteInfoBC">BC</string>
+    <string name="RouteInfoPallet">PALLET</string>
+    <string name="RouteInfoOther">ANDERE</string>
+    <string name="Next">Volgende</string>
+    <!-- Screen: Service Data -->
+    <string name="ServiceDataTitle">Scan de gegevens van de rit</string>
+    <string name="ServiceDataDepartureSite">Vertrek site</string>
+    <string name="ServiceDataService">Dienst</string>
+    <string name="ServiceDataRoute">Rit</string>
+    <string name="ServiceDataVehicle">Voertuig</string>
+    <!-- Screen: Settings -->
+    <string name="SettingsTitle">Instellingen</string>
+    <string name="SettingsTitleAdmin">Instellingen Admin</string>
+    <string name="SettingsDefaultDepartureSite">Standaard vertrek site</string>
+    <string name="SettingsScannerID">Scanner ID</string>
+    <string name="SettingsApplicationID">Applicatie</string>
+    <string name="SettingsApplicationVersion">Versie</string>
+    <string name="SettingsApplicationLastUpdate">Laatste update</string>
+    <string name="SettingsEnvironment">Omgeving</string>
+    <string name="SettingsRetentionPurgeDays">Backup transacties wissen na (dagen)</string>
+    <string name="SettingsHttpTimeoutMs">Web Service time-out (ms)</string>
+    <string name="SettingsSuffixDays">dagen</string>
+    <string name="SettingsSuffixMilliseconds">ms</string>
+    <string name="SettingsDestinationCheckTitle">Controle bestemming laden/lossen</string>
+    <string name="UseT402PaperVersion">Fleet app gekoppeld</string>
+    <!-- Category: Notifications -->
+    <string name="NotificationsUnsentDataTitle">My Transport 2 communicatie probleem!</string>
+    <string name="NotificationsUnsentDataText">Nog te versturen berichten %s: %s</string>
+    <string name="NotificationsAppNotificationTitle">My Transport 2</string>
+    <string name="NotificationsAppNotificationLoginText">Welkom %s</string>
+    <!-- Category: Byod Messages-->
+    <string name="VersionAlertTitle">Versie probleem</string>
+    <string name="VersionAlertMessage">Er is een nieuwere versie van My Transport beschikbaar. Gelieve de laatste versie te installeren om verder te kunnen gaan.</string>
+    <string name="EnvironmentAlertTitle">Waarschuwing omgeving</string>
+    <string name="EnvironmentAlertMessage">Gelieve een NIET-Productie omgeving te selecteren alvorens verder te gaan.</string>
+    <string name="ServerCommunicationFailTitle">Server probleem</string>
+    <string name="ServerCommunicationFailMessage">Geen server connectie. Probeer opnieuw.</string>
+    <string name="NoNetworkMessage">De applicatie is niet beschikbaar. Verplaats je naar een locatie met betere connectie en probeer opnieuw.</string>
+    <string name="AllowToWorkOfflineTilte">Netwerk probleem</string>
+    <string name="FileDownloadFailTitle">Bronfiles kunnen niet gedownload worden</string>
+    <string name="FileDownloadFailMessage">Onmogelijk om de bronfiles te downloaden.</string>
+    <string name="NullServerResponseTitle">Server probleem</string>
+    <string name="NullServerResponseMessage">"Je hebt 3 keer proberen in te loggen met foute combinatie stamnummer/paswoord. Je moet nu 1 uur wachten alvorens u terug 3 nieuwe pogingen heeft. Vraag hulp aan je teamleader. "</string>
+    <string name="RetryByodAlert">Opladen configuratie  files mislukt. Gelieve opnieuw te proberen.</string>
+    <!-- Screen:   Manual Login -->
+    <string name="ManualLoginTitle">Manueel aanmelden</string>
+    <!-- Screen:  Pin Login -->
+    <string name="PinLoginTitle">Pin Code</string>
+    <!--  Screen: Select Profile -->
+    <string name="SelectProfileTitle">Selecteer uw profiel</string>
+    <string name="DriverProfile">Bestuurder</string>
+    <string name="LoaderProfile">Lader</string>
+    <string name="LogOutBtnText">Uitloggen</string>
+    <!--  Screen: Subco Landing  -->
+    <string name="SubcoLoginTitle">Subco login</string>
+    <string name="DepartureSite">Vertreksite</string>
+    <string name="ConfirmLoad">Bevestig het laden</string>
+    <string name="InvalidBarCode">Ongeldige barcode</string>
+    <string name="InvalidArrivalSite">Ongeldige aankomst site</string>
+    <string name="InvalidDepartureSite">Ongeldige vertreksite</string>
+    <string name="InvalidServicecode">Ongeldige dienst code</string>
+    <string name="InvalidRoutecode">Ongeldige rit code</string>
+    <string name="InvalidVehicleLicensePlate">Ongeldig voertuig</string>
+    <string name="InvalidVehicleScan">Gelieve op de knop \'Toevoegen Voertuig\' te klikken</string>
+    <string name="SubcoOrDriverMessage">Bent u een bpost werknemer?</string>
+    <!-- Screen: Trip Selection -->
+    <string name="TripSelectionTitle">Geef uw dienst en ritnummer in</string>
+    <string name="SpecialButtonTitle">SPECIAL</string>
+    <string name="SpecialTripContent">Bent u zeker dat u een special wil aanmaken?</string>
+    <string name="DepartureSiteChangedMessage">Wilt u de vertreksite wijzigen van %s naar de geplande vertreksite van uw rit %s\?</string>
+    <string name="FetchTripDetailMessage1">Rit ophalen niet gelukt</string>
+    <string name="FetchTripDetailMessage2">Ritten ophalen mislukt. Geef zelf de rit nummer in</string>
+    <string name="SpecialTripMaxErrorMessage">Maximum aantal specials bereikt</string>
+    <string name="SpecialTripTokenError">Error bij het aanmelden</string>
+    <string name="SpecialTripAlertDialogText">De special kan niet aangemaakt worden. Gelieve zelf de speciale rit code in te geven.</string>
+    <string name="SpecialTripAlertDialogManualEntry">Er was een fout opgetreden in het versturen van uw verzoek. Gelieve de speciale Rit ID manueel in te voeren</string>
+    <string name="SpecialTripStopSelectionMessage">Alle geselecteerde stops gaan verloren. Wilt u verder gaan ?</string>
+    <string name="SpecialTripStopConfirm">Geen stops geselecteerd voor deze speciale rit. Wilt u verder gaan zonder?</string>
+    <string name="AddNewStop">STOP TOEVOEGEN</string>
+    <string name="Stop">STOP</string>
+    <string name="SelectDestinationsTitle">Geselecteerde bestemmingen</string>
+    <string name="SelectDestinationPlaceHolder">Selecteer een bestemming</string>
+    <string name="Confirm">Bevestig</string>
+    <string name="SearchDestinationPlaceHolder">Zoek op bestemming</string>
+    <string name="GenericErrorMessage">Er is een probleem opgetreden, gelieve opnieuw te proberen</string>
+    <string name="NoPlannedTripMessage">Geen geplande ritten voor deze servicecode, gelieve opnieuw te proberen</string>
+    <string name="RetryDoneForRouteCode">Een fout is opgetreden bij het opvragen van de ritten uit TOM</string>
+    <string name="InvalidDateFormat">Ongeldig  datumnotatie, gelieve opnieuw te proberen</string>
+    <string name="InvalidServiceCode">Ongeldige dienst code, gelieve opnieuw te proberen</string>
+    <string name="InvalidRouteCode">Ongeldige rit code, gelieve opnieuw te proberen</string>
+    <string name="SelectedTripMessage">De route is al geselecteerd, probeer een andere</string>
+    <string name="TokenError">Erreur login</string>
+    <string name="LocationMissmatchMessage">U bevindt zich op locatie %s. Wilt u deze instellen als startsite?</string>
+    <string name="ArrivalMissmatchMessage">U bevindt zich op locatie %s. Wilt u deze instellen als aankomst site?</string>
+    <string name="SpecialTripToastMesage">Speciale rit geselecteerd. Niet mogelijk om de rit code te scannen</string>
+    <!-- Screen: Gate number scan -->
+    <string name="GateScanTitle">Scan de kade nummer:</string>
+    <string name="GateScanLabel">Kade nummer:</string>
+    <string name="GateScanArrivalLabel">Kade nummer</string>
+    <string name="GateSwipeToScan">Scan de barcode</string>
+    <!--Screen: Route Overview Screen-->
+    <string name="RouteOverviewScreenTitle">Ritoverzicht</string>
+    <!--Screen: Vehicle selection Screen-->
+    <string name="VehicleSelectionTitle">Mijn voertuig selectie</string>
+    <string name="VehicleSelectionLabel">Mijn voertuig</string>
+    <string name="T402ErrorDialogText">Fleetwave reageert niet. De Fleet app kan niet geopend worden. Gelieve een papieren formulier te nemen voor de controles. Vergeet ook je PIN code voor je tankkaart niet te vragen aan de TL.</string>
+    <string name="T402NotAvailableDialogText">De fleet app is niet beschikbaar. Gelieve een papieren formulier te gebruiken. Vergeet ook je PIN code voor je tankkaart niet te vragen aan de TL.</string>
+    <string name="AddAnotherVehicle">TOEVOEGEN VOERTUIG</string>
+    <string name="MaximumVehicleSelectionExceeded">Maximum aantal voertuigen voor deze sessie bereikt</string>
+    <string name="AlreadySelectedVehicle">Bestaat al!</string>
+    <string name="ScanAnotherVehicle">Ongeldig voertuig. Gelieve een ander te scannen</string>
+    <string name="VehicleNotAvailable">Ingegeven voertuigtype bestaat niet voor deze nummerplaat</string>
+    <string name="VehicleNotExit">Deze nummerplaat bestaat niet. Probeer opnieuw</string>
+    <string name="UsePaperVersion">Gebruik een papieren formulier. Vergeet ook je PIN code voor je tankkaart niet te vragen aan de TL.</string>
+    <string name="VehicleParamsExit">Voertuigtype niet herkend</string>
+    <string name="ScanTrailerMessage">Gelieve ook de nummerplaat van de oplegger toe te voegen.</string>
+    <string name="ScanTractorMessage">Gelieve ook de nummerplaat van de trekker toe te voegen.</string>
+    <!--Screen: Trip Delay Screen-->
+    <string name="TripDelayScreenTitle">Vertragingen</string>
+    <string name="TripDelayReasonScreenTitle">Reden voor vertraging</string>
+    <string name="OtherRemarks">Andere opmerkingen</string>
+    <string name="SelectAReason">Selecteer reden</string>
+    <string name="DelayStop">Stops</string>
+    <string name="ArrivalDelay">AANKOMST</string>
+    <string name="DepartureDelay">VERTREK</string>
+    <string name="RetryDelayErrorMessage1">Vertragingen nog niet berekend. Even geduld aub.</string>
+    <string name="RetryDelayErrorMessage2">Vertragingen nog niet berekend. Gelieve even te wachten of verder te gaan.</string>
+    <!--Screen: Docker return Screens-->
+    <string name="Finished">Einde</string>
+    <string name="DestinationMisMatchErrorMessage">De container die u wilt inladen is niet voor deze bestemming voorzien</string>
+    <string name="EntryAVCSlabel">AVCS etiket toevoegen</string>
+    <string name="Addcontainer">Container toevoegen</string>
+    <string name="Scancontainer">Scan container</string>
+    <string name="ScanAVCSBarcode">Scan de AVCS etiket barcode</string>
+    <string name="SelectCustomer">Bestemming selecteren</string>
+    <string name="SearchCustomer">Bestemming opzoeken</string>
+    <string name="TitleDockerReturn">Retouren aan de kades</string>
+    <string name="CustomerDetailsNotAvailableError">Klantengegevens zijn niet beschikbaar</string>
+    <string name="ContainerAlreadyLoadedError">Deze recipiënt is (pallet/container) al geladen</string>
+    <string name="NoInternetError">Geen netwerkconnectiveit</string>
+    <string name="NoServerError">Geen server connectie</string>
+    <string name="AVCSpopupText">Het AVCS-etiket is niet afgesloten, gelieve het product in de container/pallet te controleren voor de vrachtwagen te laden</string>
+    <!--Screen: Scanner Screens-->
+    <string name="ErrorTitle">Error</string>
+    <string name="ErrorInvalidBarcodeMessage">Gelieve een geldige barcode te scannen</string>
+    <!-- Screen: Training sign in-->
+    <string name="ManualSignInTrainingLoginTitle">Manueel aanmelden</string>
+    <!--  Badge scan-->
+    <string name="EnterYourPinBadgeScanTitle">Voer Uw PIN-code in</string>
+    <string name="PermissionAccess">My Transport 2 wordt nu afgesloten. Wijzig de toegangsrechten op het apparaat.</string>
+    <string name="ConsolidatedWith">Geconsolideerd met</string>
+    <string name="ConfirmConsolidation">ACCEPTEER</string>
+    <string name="CancelConsolidation">ANNULEER</string>
+    <string name="Done">EINDE</string>
+    <string name="SchedulerDataClearMessage">Een niet gesynchroniseerde logon bestaat al in een andere omgeving en zal verloren gaan. Wilt u doorgaan\?</string>
+    <string name="Waybill">CMR</string>
+    <!--Screen: Vehicle Proposal Screen-->
+    <string name="VehicleProposalScreenTitle">Voertuig keuze</string>
+    <string name="Keytag">Keytag</string>
+    <string name="NumberPlate">Nummerplaat</string>
+    <string name="VehicleType">Type</string>
+    <string name="Preload">Voorgeladen</string>
+    <string name="MainVehicle">Voertuig</string>
+    <string name="NoteFromTeamLead">Opmerking Teamleader</string>
+    <string name="Close">Afsluiten</string>
+    <string name="ContactTeamLeadMessage">Gelieve uw teamleader te contacteren om te vragen welk voertuig u kan gebruiken.</string>
+    <string name="GateChangeMessage">Opgelet, kadewissel gepland.</string>
+    <string name="DockChangeButton">Kadewissel</string>
+    <string name="WayBillNotAvailablePopupMessage">Geen CMR info beschikbaar. Probeer opnieuw na 30 seconden.</string>
+    <string name="PreviousButton">vorige</string>
+    <string name="VehicleReuseInfoMessage">Opgelet: indien je de sleutel van je vorige rit mag bijhouden, mag je de melding hierboven negeren.</string>
+    <string name="SubcoUserDetailsTitle">Ingave Subco Nummer</string>
+    <string name="SubcoUserDetailsMessage">Geef jouw Subco-nummer in</string>
+</resources>
